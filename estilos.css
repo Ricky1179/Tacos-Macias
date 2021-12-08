@@ -1,0 +1,60 @@
+body{
+background: #ffc90e;
+}
+
+@font-face{
+	font-family: "caveat";
+	src: url("recursos/Caveat.ttf");
+}
+
+div#botones{
+	width: 99vw;
+
+}
+
+.boton{
+	background-color: #8b0d32;
+	color: white;
+	width: 32%;
+	height: 100px;
+	font-size: 50px;
+	font-family: "caveat";
+	border-radius: 20px;
+	margin: 4px;
+}
+
+.boton:hover{
+	background-color: #F5F5F5;/*posible color #FF7C00*/
+	color: #8b0d32;
+	width: 32%;
+	height: 100px;
+	font-size: 50px;
+	font-family: "caveat";
+	border-radius: 20px;
+	margin: 4px;
+}
+
+.pie{
+	background-color: black;
+	width: 99vw;
+	height: 300px;
+	color: white;
+}
+
+.Titulos{
+	font-size: 100px;
+	font-family: "caveat";
+}
+
+.listas{
+	font-size: 50px;
+	font-family: "caveat";
+}
+
+div#informacion{
+	width: 99vw;
+}
+
+.tables{
+	width: 40vw;
+}
