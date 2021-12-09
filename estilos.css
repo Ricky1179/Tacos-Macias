@@ -37,7 +37,7 @@ div#botones{
 .pie{
 	background-color: black;
 	width: 99vw;
-	height: 300px;
+	height: 150px;
 	color: white;
 }
 
@@ -57,4 +57,9 @@ div#informacion{
 
 .tables{
 	width: 40vw;
+}
+
+.des{
+	font-size: 35px;
+	font-family: "caveat";
 }
