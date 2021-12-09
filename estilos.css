@@ -34,13 +34,6 @@ div#botones{
 	margin: 4px;
 }
 
-.pie{
-	background-color: black;
-	width: 99vw;
-	height: 150px;
-	color: white;
-}
-
 .Titulos{
 	font-size: 100px;
 	font-family: "caveat";
@@ -62,4 +55,27 @@ div#informacion{
 .des{
 	font-size: 35px;
 	font-family: "caveat";
+}
+
+.pie{
+	background-color: black;
+	width: 99vw;
+	height: 150px;
+	color: white;
+	font-family: "caveat";
+	display: flex;
+	flex-direction: row;
+}
+
+.relleno{
+	width: 20vw;
+}
+
+.InfoPie{
+	width: 30vw;
+}
+
+.InfoPieI{
+	width: 30vw;
+	flex-direction: column;
 }
