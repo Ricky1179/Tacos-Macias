@@ -74,8 +74,3 @@ div#informacion{
 .InfoPie{
 	width: 30vw;
 }
-
-.InfoPieI{
-	width: 30vw;
-	flex-direction: column;
-}
