@@ -1,7 +1,9 @@
+/*color de fonfo*/
 body{
 background: #ffc90e;
 }
 
+/*Creador de la fuente usada*/
 @font-face{
 	font-family: "caveat";
 	src: url("recursos/Caveat.ttf");
@@ -12,6 +14,7 @@ div#botones{
 
 }
 
+/*Botones de navegacion con su hover*/
 .boton{
 	background-color: #8b0d32;
 	color: white;
@@ -24,7 +27,7 @@ div#botones{
 }
 
 .boton:hover{
-	background-color: #F5F5F5;/*posible color #FF7C00*/
+	background-color: #F5F5F5;
 	color: #8b0d32;
 	width: 32%;
 	height: 100px;
@@ -34,29 +37,35 @@ div#botones{
 	margin: 4px;
 }
 
+/*Ocupado de los titulos de los diferentes apartados*/
 .Titulos{
 	font-size: 100px;
 	font-family: "caveat";
 }
 
+/*Formato basico para la mayoria del texto*/
 .listas{
 	font-size: 50px;
 	font-family: "caveat";
 }
 
+/*Contenedort de las div de informacion*/
 div#informacion{
 	width: 99vw;
 }
 
+/*Contenedor de las tablas*/
 .tables{
 	width: 40vw;
 }
 
+/*para poco contenido*/
 .des{
 	font-size: 35px;
 	font-family: "caveat";
 }
 
+/*Formato del pie*/
 .pie{
 	background-color: black;
 	width: 99vw;
